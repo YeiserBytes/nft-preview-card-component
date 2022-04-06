@@ -42,16 +42,6 @@ $para-size2: 28px;
                 border-radius: 15px;
                 padding: 15px;
                 margin: 0 auto;
-                /*flex: 1;
-                padding: 15px 27px;
-                margin: 0 auto;
-                max-width: 1440px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                position: relative;
-                z-index: 1;*/
                 
                 .banner-img {
                     width: 300px;
@@ -118,6 +108,7 @@ $para-size2: 28px;
                     margin: 20px 0;
                     background: $n-line-darkBlue;
                     height: 1px;
+                    border: none;
                 }
 
                 .user {
@@ -128,7 +119,7 @@ $para-size2: 28px;
 
                     img {
                         height: 45px;
-                        width: 45px;
+                        width: auto;
                         border: 1px solid $n-white;
                         border-radius: 50%;
                         margin-right: 20px;

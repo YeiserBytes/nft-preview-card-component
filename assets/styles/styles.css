@@ -34,16 +34,6 @@
   border-radius: 15px;
   padding: 15px;
   margin: 0 auto;
-  /*flex: 1;
-                padding: 15px 27px;
-                margin: 0 auto;
-                max-width: 1440px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                position: relative;
-                z-index: 1;*/
 }
 
 * body .container .content .banner-img {
@@ -145,6 +135,7 @@
   margin: 20px 0;
   background: #2f415b;
   height: 1px;
+  border: none;
 }
 
 * body .container .text-content .user {
@@ -165,7 +156,7 @@
 
 * body .container .text-content .user img {
   height: 45px;
-  width: 45px;
+  width: auto;
   border: 1px solid #ffffff;
   border-radius: 50%;
   margin-right: 20px;
