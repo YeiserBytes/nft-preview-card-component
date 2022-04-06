@@ -1,0 +1,157 @@
+// Variables
+
+// Screen Size Responsive
+$mobileScreen: 375px;
+$desktopScreen: 1440px;
+// primary
+$pri-softBlue: #8bacda;
+$pri-cyan: #00fff7;
+// Neutral colors
+$n-main-bg: #0D192B;
+$n-card-bg: #14253d;
+$n-line-darkBlue: #2f415b;
+$n-white: #ffffff;
+// Weights
+$font-w-1: 300;
+$font-w-2: 400;
+$font-w-3: 600;
+// font size
+$para-size1: 18px;
+$para-size2: 28px;
+
+* {
+    body {
+        background: $n-main-bg;
+        font-family: 'Outfit', sans-serif;
+        color: $n-white;
+        position: relative;
+        
+        .container {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 0 15px;
+            display: flex;
+            
+            .content {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                background: #14253D;
+                box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.25);
+                border-radius: 15px;
+                padding: 15px;
+                margin: 0 auto;
+                /*flex: 1;
+                padding: 15px 27px;
+                margin: 0 auto;
+                max-width: 1440px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                z-index: 1;*/
+                
+                .banner-img {
+                    width: 300px;
+                    height: auto;
+                    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+                    border-radius: 10px;
+                }
+            }
+
+            .text-content {
+                max-width: 1440px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                z-index: 1;
+
+                .header {
+                    
+                    .title  {
+                        font-size: $para-size2;
+                        font-weight: $font-w-3;
+                    }
+
+                    .description {
+                        font-weight: $font-w-2;
+                        font-size: $para-size1;
+                        color: $pri-softBlue;
+                    }
+
+                    .data {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        align-items: center;
+                        align-content: center;
+
+                        .price {
+                            display: block;
+                            flex-grow: 0;
+                            flex-shrink: 1;
+                            flex-basis: auto;
+                            align-self: auto;
+                            order: 0;
+                            color: $pri-cyan;
+                        }
+
+                        .date {
+                            display: block;
+                            flex-grow: 0;
+                            flex-shrink: 1;
+                            flex-basis: auto;
+                            align-self: auto;
+                            order: 0;
+                            color: $pri-softBlue;
+                        }
+                    }
+                }
+
+                .line {
+                    width: 100%;
+                    margin: 20px 0;
+                    background: $n-line-darkBlue;
+                    height: 1px;
+                }
+
+                .user {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+
+                    img {
+                        height: 45px;
+                        width: 45px;
+                        border: 1px solid $n-white;
+                        border-radius: 50%;
+                        margin-right: 20px;
+                        right: 0;
+                    }
+
+                    .descriptions-user {
+                        font-size: $para-size1;
+                        span {
+                            color: $pri-softBlue;
+                        }
+                    }
+                }
+            }
+        }
+
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+
+            a {
+                color: hsl(228, 45%, 44%);
+            }
+        }
+    }
+}

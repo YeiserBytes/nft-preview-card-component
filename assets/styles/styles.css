@@ -1,0 +1,191 @@
+* body {
+  background: #0D192B;
+  font-family: 'Outfit', sans-serif;
+  color: #ffffff;
+  position: relative;
+}
+
+* body .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* body .container .content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #14253D;
+  -webkit-box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 15px;
+  margin: 0 auto;
+  /*flex: 1;
+                padding: 15px 27px;
+                margin: 0 auto;
+                max-width: 1440px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                z-index: 1;*/
+}
+
+* body .container .content .banner-img {
+  width: 300px;
+  height: auto;
+  -webkit-filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+
+* body .container .text-content {
+  max-width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+* body .container .text-content .header .title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+* body .container .text-content .header .description {
+  font-weight: 400;
+  font-size: 18px;
+  color: #8bacda;
+}
+
+* body .container .text-content .header .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+* body .container .text-content .header .data .price {
+  display: block;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  color: #00fff7;
+}
+
+* body .container .text-content .header .data .date {
+  display: block;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  color: #8bacda;
+}
+
+* body .container .text-content .line {
+  width: 100%;
+  margin: 20px 0;
+  background: #2f415b;
+  height: 1px;
+}
+
+* body .container .text-content .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+* body .container .text-content .user img {
+  height: 45px;
+  width: 45px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin-right: 20px;
+  right: 0;
+}
+
+* body .container .text-content .user .descriptions-user {
+  font-size: 18px;
+}
+
+* body .container .text-content .user .descriptions-user span {
+  color: #8bacda;
+}
+
+* body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+* body .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=styles.css.map */
